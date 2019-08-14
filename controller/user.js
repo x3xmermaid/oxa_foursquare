@@ -79,7 +79,7 @@ exports.login = function (req, res) {
                         total_checkin: rows[0].total_checkin
                     })
                 } else {
-                    res.status(403).json('Incorrect Username or Password')
+                    res.status(403).json('Incorrect Email or Password')
                 }
             }
         }

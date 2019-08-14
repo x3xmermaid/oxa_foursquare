@@ -13,7 +13,7 @@ exports.checkIN = function (req, res) {
     }
 
     const id = req.user.rows[0].id
-    let level = req.user.rows[0].level
+    let level = user_badge.level
     const total_checkin = req.user.rows[0].total_checkin
     const id_location = req.body.id_location
     con.query(`select * from user_checkin where user=? and location=? and date=current_date`,
