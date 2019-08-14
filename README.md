@@ -31,9 +31,10 @@ Express.js, or simply Express, is a web application framework for Node.js. [More
 1. Open CMD or Terminal and enter to the app directory
 2. Type `npm install`
 3. Turn on Web Server and MySQL can using Third-party tool like xampp, etc.
-4. Open Postman desktop application or Chrome web app extension that has installed before
-5. Choose HTTP Method and enter request url.(ex. localhost:3000/notes)
-6. You can see all the end point [here](#end-point-list)
+4. import database to mysql
+5. Open Postman desktop application or Chrome web app extension that has installed before
+6. Choose HTTP Method and enter request url.(ex. localhost:3000/notes)
+7. You can see all the end point [here](#end-point-list)
 
 ## Set up connect.js file
 Open .env file on your favorite code editor, and copy paste this code below :
@@ -41,7 +42,7 @@ Open .env file on your favorite code editor, and copy paste this code below :
 DB_HOST=localhost
 DB_USER=root // default
 DB_PASS= // default
-DB_NAME=oxa_foursquare
+DB_NAME=oxa_badge
 ```
 
 ## End Point List
